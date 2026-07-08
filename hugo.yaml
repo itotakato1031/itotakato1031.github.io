@@ -2,17 +2,40 @@ baseURL: "https://itotakato1031.github.io/"
 title: "Takato Ito"
 theme: "PaperMod"
 
-defaultContentLanguage: ja
+defaultContentLanguage: en
 
 params:
   author: "Takato Ito"
 
   defaultTheme: auto
+
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+
+  profileMode:
+    enabled: true
+    title: "Takato Ito"
+    subtitle: |
+      Ph.D. Student (1st year)  
+      Life Engineering Laboratory  
+      University of Tsukuba  
+
+      Research Interests:
+      Virtual Reality, Haptics, Thermal Sensation, Vibrotactile Feedback
+
+    imageUrl: ""
+    imageTitle: "Takato Ito"
+
+    buttons:
+      - name: Research
+        url: "/research/"
+      - name: Publications
+        url: "/publications/"
+      - name: About
+        url: "/about/"
 
 menu:
   main:
