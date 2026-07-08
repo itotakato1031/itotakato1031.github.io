@@ -1,0 +1,42 @@
+baseURL: "https://itotakato1031.github.io/"
+title: "Takato Ito"
+theme: "PaperMod"
+
+defaultContentLanguage: ja
+
+params:
+  author: "Takato Ito"
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 20
+
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 30
+
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 40
+
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 50
